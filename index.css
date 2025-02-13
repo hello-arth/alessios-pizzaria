@@ -101,13 +101,13 @@ body {
 
 .menu__title {
   font-size: 2rem;
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 .menu__item {
   display: inline-block;
   text-align: left;
-  width: 25rem;
-  height: 25rem;
+  max-width: 25rem;
+  max-height: 25rem;
   padding: 0 1rem 1rem;
 }
 
@@ -125,11 +125,35 @@ body {
   padding: 1rem 0
 }
 
-.about__background-img {
-  width: 100%;
+.about {
+  color: var(--color-background-text);
+  text-align: center;
   height: 25vh;
-  object-position: center;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.8) 95%);
+
 }
+
+.about__background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about__foreground {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* white-space: nowrap; */
+}
+
+.contact {
+  position: relative;
+}
+
 
 .footer {
   color: var(--color-highlight-text);
