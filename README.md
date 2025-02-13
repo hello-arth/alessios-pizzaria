@@ -5,7 +5,7 @@ Uma simples landing page para uma pizzaria, utilizando HTML e CSS.
 ## Como rodar o projeto
 
 1. Clone o repositório:
-   git clone https://github.com/hello-arth/alessios-pizzaria.git
+   git clone git@github.com:hello-arth/alessios-pizzaria.git
 
 2. Navegue até a pasta do projeto:
    cd alessios-pizzaria
