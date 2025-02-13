@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+  --color-background: #232323;
+  --color-background-text: #e8e8ff;
+  --color-yellow: #FFA500;
+  --color-background-btns: var(--color-yellow);
+  --color-highlight-text: var(--color-yellow)
+}
+
+body {
+  width: 100vw;
+}
+
+.button {
+  background-color: var(--color-background-btns);
+  color: #000001;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  border-radius: .3rem;
+  font-size: .8rem;
+  font-weight: 700;
+}
+
+.header, .footer {
+  width: 100%;
+  height: 8vh;
+  font-size: .8rem;
+  font-weight: 500;
+  background-color: var(--color-background);
+  text-align: center;
+  line-height: 8vh;
+}
+
+.nav {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.nav__link {
+  font-size: .9rem;
+  text-decoration: none;
+  color: var(--color-background-text)
+}
+
+.nav__link + .nav__link {
+  margin-left: 2rem;
+}
+
+.hero {
+  width: 100%;
+  height: 92vh;
+  position: relative;
+}
+
+.hero__background-img, .menu__item-img, .about__background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__background-img {
+  position: absolute;
+  object-fit: cover;
+  object-position: top;
+  top: 0;
+  z-index: -1;
+}
+
+.hero__foreground {
+  width: 100%;
+  text-align: center;
+  color: var(--color-background-text);
+  padding: 15vh 0;
+}
+
+.hero__foreground-title {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.hero__foreground-text {
+  margin: 1.5rem 0
+}
+
+.about__background-img {
+  width: 100%;
+  height: 25vh;
+  object-position: center;
+}
+
+.menu {
+  width: 100%;
+  text-align: center;
+}
+
+.menu__title {
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+.menu__item {
+  display: inline-block;
+  text-align: left;
+  width: 25rem;
+  height: 25rem;
+  padding: 0 1rem 1rem;
+}
+
+.menu__item-img {
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  height: 70%;
+}
+
+.menu__item__info {
+  padding: .75rem 0 0 .75rem;
+}
+
+.menu__item-description {
+  padding: 1rem 0
+}
+
+.footer {
+  color: var(--color-highlight-text);
+}
+
+.float__button {
+  font-size: .8rem;
+  padding: .5rem .6rem;
+  position: fixed;
+  bottom: 1.2rem;
+  right: 2rem;
+}
