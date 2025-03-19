@@ -1,204 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alessio's Pizzaria</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
-  <title>Document</title>
+  <script src="./index.js" defer></script>
 </head>
+
 <body>
-  <header class="header" id="main">
-    <nav class="nav">
-      <a class="nav__link" href="#main">Home</a>
-      <a class="nav__link" href="#menu">Cardápio</a>
-      <a class="nav__link" href="#about">Sobre Nós</a>
-      <a class="nav__link" href="#contact">Contato</a>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Cardápio</a></li>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
     </nav>
   </header>
-  <section class="hero">
-    <img class="hero__background-img" src="/imgs/pexels-narda-yescas-1566837.jpg" alt="background">
-    <div class="hero__foreground">
-      <h1 class="hero__foreground-title">Bem-vindo à Alessio's</h1>
-      <p class="hero__foreground-text">Saborosas pizzas feitas especialmente para você!</p>
-      <a class="button" href="#menu">Ver cardápio</a>
+
+  <section id="home">
+    <div class="hero">
+      <h1>Bem-vindo à Alessio's</h1>
+      <p>Saborosas pizzas feitas especialmente para você!</p>
+      <a href="#menu" class="cta-button">Ver Cardápio</a>
     </div>
   </section>
 
-  <div class="scroll-wrapper">
-    <section class="menu" id="menu">
-      <h1 class="menu__title">Cardápio</h1>
+  <section id="menu">
+    <h2>Cardápio</h2>
+    <ul class="menu-list">
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Margherita">
+        <h3>Pizza Margherita</h3>
+        <p>Molho de tomate, mussarela, manjericão fresco.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Pepperoni">
+        <h3>Pizza Pepperoni</h3>
+        <p>Molho de tomate, pepperoni, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Quatro Queijos">
+        <h3>Pizza Quatro Queijos</h3>
+        <p>Molho de tomate, mussarela, parmesão, gorgonzola, provolone.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Calabresa">
+        <h3>Pizza Calabresa</h3>
+        <p>Molho de tomate, calabresa, cebola, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Vegetariana">
+        <h3>Pizza Vegetariana</h3>
+        <p>Molho de tomate, pimentões, cogumelos, azeitonas, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Frango com Catupiry">
+        <h3>Pizza Frango com Catupiry</h3>
+        <p>Molho de tomate, frango desfiado, catupiry, milho, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Portuguesa">
+        <h3>Pizza Portuguesa</h3>
+        <p>Molho de tomate, presunto, ovos, cebola, azeitonas, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Supreme">
+        <h3>Pizza Supreme</h3>
+        <p>Molho de tomate, pepperoni, pimentões, cebola roxa, azeitonas, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Tropical">
+        <h3>Pizza Tropical</h3>
+        <p>Molho de tomate, presunto, abacaxi, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Margherita Especial">
+        <h3>Pizza Margherita Especial</h3>
+        <p>Molho de tomate, mussarela de búfala, tomate fresco, manjericão, azeite de oliva.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Carne de Sol">
+        <h3>Pizza Carne de Sol</h3>
+        <p>Molho de tomate, carne de sol desfiada, cebola roxa, queijo mussarela.</p>
+      </li>
+      <li>
+        <img src="img/pexels-engin-akyurt-2260208.jpg" alt="Pizza Caprese">
+        <h3>Pizza Caprese</h3>
+        <p>Molho de tomate, tomate fresco, mussarela de búfala, manjericão, azeite de oliva.</p>
+      </li>
+    </ul>
+  </section>
 
-      <div class="menu__items">
-        
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Margherita</h5>
-            <p class="menu__item-description">
-            Molho de tomate, mussarela, manjericão fresco.
-          </p>
-          </div>
-          
-        </div>
-      
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Pepperoni</h5>
-            <p class="menu__item-description">
-            Molho de tomate, pepperoni, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
+  <section id="about">
+    <h2>Sobre Nós</h2>
+    <p>Nossa pizzaria é dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.
+    </p>
+  </section>
 
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Quatro Queijos</h5>
-            <p class="menu__item-description">
-            Molho de tomate, mussarela, parmesão, gorgonzola, provolone.
-          </p>
-          </div>
-          
-        </div>
+  <section id="contact">
+    <h2>Contato</h2>
 
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Calabresa</h5>
-            <p class="menu__item-description">
-            Molho de tomate, calabresa, cebola, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
+    <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
 
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Vegetariana</h5>
-            <p class="menu__item-description">
-            Molho de tomate, pimentões, cogumelos, azeitonas, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
+    <address>
+      <p>
+        <strong>Endereço:</strong>
+        Avenida Onze de Outubro, nº 123<br>
+        Centro, Cidade Qualquer/RJ CEP: 12345-678
+      </p>
 
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Frango com Catupiry</h5>
-            <p class="menu__item-description">
-            Molho de tomate, frango desfiado, catupiry, milho, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
-
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Portuguesa</h5>
-            <p class="menu__item-description">
-            Molho de tomate, presunto, ovos, cebola, azeitonas, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
-
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Supreme</h5>
-            <p class="menu__item-description">
-            Molho de tomate, pepperoni, pimentões, cebola roxa, azeitonas, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
-
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Tropical</h5>
-            <p class="menu__item-description">
-            Molho de tomate, presunto, abacaxi, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
-
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Margherita Especial</h5>
-            <p class="menu__item-description">
-            Molho de tomate, mussarela de búfala, tomate fresco, manjericão, azeite de oliva.
-          </p>
-          </div>
-          
-        </div>
-
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Carne de Sol</h5>
-            <p class="menu__item-description">
-            Molho de tomate, carne de so desfiada, cebola roxa, queijo mussarela.
-          </p>
-          </div>
-          
-        </div>
-
-        <div class="menu__item">
-          <img class="menu__item-img" src="/imgs/pexels-engin-akyurt-2260208.jpg" alt="">
-          <div class="menu__item__info">
-            <h5 class="menu__item-title">Pizza Caprese</h5>
-            <p class="menu__item-description">
-            Molho de tomate, tomate fresco, mussarela de búfala, manjericão, azeite de oliva.
-          </p>
-          </div>
-          
-        </div>
+      <div>
+        <p><strong>Telefone:</strong> (11) 5555-5555</p>
+        <p>
+          <strong>E-mail:</strong>
+          <a href="mailto:contato@alessios.pizza">contato@alessios.pizza</a>
+        </p>
       </div>
-    </section>
 
-    <section class="about" id="about">
-      <img class="about__background-img" src="/imgs/pexels-eneida-nieves-905847.jpg" alt="">
-      <div class="about__foreground">
-        <h1 class="about__foreground-title">Sobre nós</h1>
-        <p class="about__foreground-text">Nossa pizzaria é dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.</p>
+      <div>
+        <p><strong>Horário de Funcionamento:</strong></p>
+        <p>Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</p>
+        <p></p>
       </div>
-    </section>
+    </address>
+  </section>
 
-    <section class="contact" id="contact">
-      <h1 class="contant-title">Contato</h1>
-      <p class="contact-text">Entre em contato conosco para fazer pedidos ou tirar suas dpuvidas.</p>
-
-      <address class="contact__data">
-        <div class="contact__data-address">
-          <strong>Endereço:</strong> Avenida Onze de Outubro, nº 123 Centro, Cidade Qualquer/RJ CEP: 12345-678
-        </div>
-        <div class="contact__data__info">
-          <span class="contact__data__info-phone"><strong>Telefone:</strong> (11) 5555-5555</span>
-          <span class="contact__data__info-email"><strong>E-mail:</strong> <a href="#">contato@alessios.pizza</a></span>
-        </div>
-      </address>
-
-      <a class="button" href="#menu">Peça agora mesmo!</a>
-    </section>
-    <span class="float__wrapper">
-      <a class="button float__wrapper-link" href="#main">^</a>
-    </span>
-  </div>
-  <footer class="footer">
-    <p>&copy; 2025 Alessio's Pizzaria</p>
+  <footer>
+    <p>&copy; 2024 Alessio's Pizzaria<br>
+      Made with
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="#f64348" stroke="#f64348" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+        by
+        <a href="https://github.com/hello-arth" target="_blank">
+          <span id="github">@hello-arth</span>
+        </a>
+    </p>
   </footer>
-
 </body>
+
 </html>
