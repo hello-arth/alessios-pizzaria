@@ -55,7 +55,7 @@ nav a {
     rgba(0, 0, 0, .1) 0%,
     rgba(0, 0, 0, 1) 100%
   ),
-    url("img/pexels-narda-yescas-1566837.jpg");
+    url("img/pexels-narda-yescas-1566837.webp");
   background-size: cover;
   color: var(--color-white);
   min-height: 75vh;
@@ -129,7 +129,7 @@ li > img {
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.9) 100%
     ),
-    url(img/pexels-eneida-nieves-905847.jpg);
+    url(img/pexels-eneida-nieves-905847.webp);
   background-position: center;
   background-size: cover;
   color: var(--color-white);
