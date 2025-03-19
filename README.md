@@ -4,7 +4,7 @@ Uma simples landing page para uma pizzaria, utilizando HTML e CSS, com responsiv
 
 ## Funcionalidades
 
-- **Navegação simples**: Menus de navegação para Home, Cardápio, Sobre Nós e Contato.
+- **Navegação simples e fluidez**: Menus de navegação para `Home`, `Cardápio`, `Sobre Nós` e `Contato`.
 - **Responsividade**: Layout adaptável para diferentes tamanhos de tela, especialmente dispositivos móveis.
 
 ### Estrutura do HTML
