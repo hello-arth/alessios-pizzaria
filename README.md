@@ -10,21 +10,21 @@ Uma simples landing page para uma pizzaria, utilizando HTML e CSS, com responsiv
 ### Estrutura do HTML
 
 1. **Cabeçalho (`header`)**:
-    - Menu de navegação com links para as seções: Home, Cardápio, Sobre Nós e Contato.
+    - Menu de navegação com links para as seções: `Home`, `Cardápio`, `Sobre Nós` e `Contato`.
     
-2. **Seção Home (`#home`)**:
+3. **Seção Home (`#home`)**:
     - Título de boas-vindas e uma chamada para ação (botão) para visualizar o cardápio.
 
-3. **Seção Cardápio (`#menu`)**:
+4. **Seção Cardápio (`#menu`)**:
     - Lista de pizzas com imagem, título e descrição.
 
-4. **Seção Sobre Nós (`#about`)**:
+5. **Seção Sobre Nós (`#about`)**:
     - Texto sobre a missão da pizzaria.
 
-5. **Seção Contato (`#contact`)**:
+6. **Seção Contato (`#contact`)**:
     - Informações de contato, incluindo endereço, telefone e e-mail.
 
-6. **Rodapé (`footer`)**:
+7. **Rodapé (`footer`)**:
     - Créditos e link para o desenvolvedor.
 
 ## Como rodar o projeto
@@ -48,6 +48,13 @@ O projeto está hospedado e pode ser acessado no seguinte link:
 
 🔗 [Alessio's Pizzaria](https://alessios-pizzaria.vercel.app/)
 
+## 📸 Capturas de Tela
+
+![Home](screenshots/1.webp)
+
+![Menu](screenshots/2.webp)
+
+![About - Contact - Footer](screenshots/3.webp)
 
 ## Licença
 
