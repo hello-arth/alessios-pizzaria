@@ -30,8 +30,9 @@ Uma simples landing page para uma pizzaria, utilizando HTML e CSS, com responsiv
 ## Como rodar o projeto
 
 1. Clone o repositório:
-   git clone [git@github.com:hello-arth/alessios-pizzaria.git]()
-
+```bash
+git clone git@github.com:hello-arth/alessios-pizzaria.git
+```
 2. Navegue até a pasta do projeto:
    cd alessios-pizzaria
 
