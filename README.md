@@ -50,14 +50,6 @@ O projeto está hospedado e pode ser acessado no seguinte link:
 
 🔗 [Alessio's Pizzaria](https://alessios-pizzaria.vercel.app/)
 
-## 📸 Capturas de Tela
-
-![Home](screenshots/1.webp)
-
-![Menu](screenshots/2.webp)
-
-![About - Contact - Footer](screenshots/3.webp)
-
 ## Licença
 
 Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
