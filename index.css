@@ -59,7 +59,7 @@ nav a {
   background-size: cover;
   color: var(--color-white);
   min-height: 75vh;
-  padding: 10rem 1.25rem;
+  padding: 10rem 1.75rem;
   text-align: center;
 }
 
@@ -214,24 +214,38 @@ footer > p > a {
   }
 }
 
-@media(max-width: 440px) {
+@media(max-width: 501px) {
   .hero h1 {
     font-size: 3rem;
-    font-weight: 100;
+    font-weight: 300;
   }
-
-  nav > ul > li {
-    margin: 0 .75rem;
+  
+  .hero p {
+    font-size: 1.25rem;
   }
 }
 
-@media(max-width: 340px) {
+@media(max-width: 425px) {
+  .hero p {
+    font-size: 1.15rem;
+  }
+
   nav > ul > li {
     margin: 0 .7rem;
   }
 }
 
-@media(max-width: 309px) {
+@media(max-width: 375px) {
+
+  nav > ul > li {
+    margin: 0 .7rem;
+  }
+}
+
+@media(max-width: 396px) {
+  .hero {
+    padding: 10rem 2.5rem
+  }
   * {
     font-size: 12px;
   }
