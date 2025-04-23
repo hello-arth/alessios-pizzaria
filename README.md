@@ -9,23 +9,17 @@ Uma simples landing page para uma pizzaria, utilizando HTML e CSS, com responsiv
 
 ### Estrutura do HTML
 
-1. **Cabeçalho (`header`)**:
-    - Menu de navegação com links para as seções: `Home`, `Cardápio`, `Sobre Nós` e `Contato`.
+1. **Cabeçalho (`header`)**: Menu de navegação com links para as seções: `Home`, `Cardápio`, `Sobre Nós` e `Contato`.
     
-3. **Seção Home (`#home`)**:
-    - Título de boas-vindas e uma chamada para ação (botão) para visualizar o cardápio.
+3. **Seção Home (`#home`)**: Título de boas-vindas e uma chamada para ação (botão) para visualizar o cardápio.
 
-4. **Seção Cardápio (`#menu`)**:
-    - Lista de pizzas com imagem, título e descrição.
+4. **Seção Cardápio (`#menu`)**: Lista de pizzas com imagem, título e descrição.
 
-5. **Seção Sobre Nós (`#about`)**:
-    - Texto sobre a missão da pizzaria.
+5. **Seção Sobre Nós (`#about`)**: Texto sobre a missão da pizzaria.
 
-6. **Seção Contato (`#contact`)**:
-    - Informações de contato, incluindo endereço, telefone e e-mail.
+6. **Seção Contato (`#contact`)**: Informações de contato, incluindo endereço, telefone e e-mail.
 
-7. **Rodapé (`footer`)**:
-    - Créditos e link para o desenvolvedor.
+7. **Rodapé (`footer`)**: Créditos e link para o desenvolvedor.
 
 ## Como rodar o projeto
 
