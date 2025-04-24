@@ -247,6 +247,10 @@ footer > p > a {
 }
 
 @media screen and (min-width: 1024px) {
+  nav li + li {
+    margin-left: 2.5rem
+  }
+  
   .hero h1 {
     font-size: 3rem;
   }
