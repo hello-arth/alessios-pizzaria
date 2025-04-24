@@ -44,7 +44,7 @@ nav li {
 }
 
 nav li + li {
-  margin-top: .5rem;
+  margin-top: 1rem;
 }
 
 nav a {
